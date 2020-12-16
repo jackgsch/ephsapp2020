@@ -11,11 +11,11 @@ import SwiftUI
 struct AssignmentsView: View {
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 15){
+        VStack{
             Text("Completed Schoology Assignments")
                 .font(.largeTitle)
             
-            Text("No current Assignments")
+            Text("No Current Assignments")
         progressView()
     }
 }

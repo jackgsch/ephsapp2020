@@ -12,7 +12,7 @@ struct GradesView: View {
     var body: some View {
         Text("Grades")
             .font(.largeTitle)
-        Text("No grading yet")
+        Text("No Grading Yet")
     }
 }
 

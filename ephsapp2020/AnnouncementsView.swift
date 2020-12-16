@@ -15,7 +15,7 @@ struct AnnouncementsView: View {
         VStack {
             Text("Announcements").font(.largeTitle)
             
-            Text("No announcements")
+            Text("No Announcements")
             }
         Spacer()
     }
