@@ -77,25 +77,6 @@ struct NavMenuView: View {
                     .resizable()
                     .frame(width: 57, height: 57)
             }
-            Button(action: {
-                if !isGuest {
-                    refreshAlert = true
-                }
-            }) {
-                if !isGuest {
-                    Image("refresh")
-                        .resizable()
-                        .frame(width: 57, height: 57)
-                        .padding(.trailing, 20)
-                } else {
-                    Image("DisabledRefresh")
-                        .resizable()
-                        .frame(width: 57, height: 57)
-                        .padding(.trailing, 20)
-                }
-            }.alert(isPresented: $refreshAlert, content: {
-                Alert(title: Text("Refreshed"), dismissButton: nil)
-            })
         }
         .padding()
         .frame(minWidth: 0, maxWidth: 400, minHeight: 0, maxHeight: 50, alignment: .center)
