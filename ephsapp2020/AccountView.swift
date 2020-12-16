@@ -31,12 +31,7 @@ struct AccountView: View {
                 Text("Assignments, Announcements, Grades disabled")
                     .font(.callout)
             }
-            Button(action: {
-                defaults.set("login", forKey: keys.currentPage)
-                viewRouter.currentPage = "login"
-            }, label: {
-                BigRedText(text: "Change API Keys")
-            })
+           
             Button(action: {
                 defaults.set("tutorial", forKey: keys.currentPage)
                 viewRouter.currentPage = "tutorial"

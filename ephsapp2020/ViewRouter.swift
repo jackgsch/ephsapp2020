@@ -15,7 +15,7 @@ class ViewRouter: ObservableObject {
     //let defaults = UserDefaults.standard
     //let keys = Keys()
     
-    var currentPage: String = "login" {
+    var currentPage: String = "tutorial" {
         didSet {
             objectWillChange.send(self)
             print("currentPage refreshed")

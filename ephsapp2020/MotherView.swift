@@ -10,18 +10,13 @@ import SwiftUI
 
 struct MotherView: View {
     @ObservedObject var viewRouter = ViewRouter()
-    var api = API()
     @State var defaults = UserDefaults.standard
     let keys = Keys()
     
-    init() {
-        self.api.refresh()
-      //  sleep(2)
-    }
     var body: some View {
         VStack {
             if defaults.string(forKey: keys.currentPage) == "home" {
-                HomeView(viewRouter: viewRouter, api: api)
+                HomeView(viewRouter: viewRouter)
             } else if viewRouter.currentPage == "tutorial" {
                 TutorialView(viewRouter: viewRouter)
             } else {

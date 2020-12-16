@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91133B7E257A880D007BB6F5 /* OAuthSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 913ED49C256C18D10060059B /* OAuthSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		91133B7F257A8817007BB6F5 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913ED49C256C18D10060059B /* OAuthSwift.framework */; };
-		9117279C257A2F75001C107F /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9117279B257A2F75001C107F /* APIRequests.swift */; };
 		918E856325642B54001F879C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918E856225642B54001F879C /* LaunchScreen.storyboard */; };
 		91BF9935257FD761000B1270 /* GradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BF9934257FD761000B1270 /* GradesView.swift */; };
-		91D7E7E325657D3F000E3AB3 /* APIStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D7E7E125657D3F000E3AB3 /* APIStructs.swift */; };
 		91DB167625641DCA0060D3C8 /* progressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DB167525641DCA0060D3C8 /* progressView.swift */; };
 		91DB167F25641E110060D3C8 /* time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DB167E25641E110060D3C8 /* time.swift */; };
 		91DB1690256426280060D3C8 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DB168F256426280060D3C8 /* WebView.swift */; };
@@ -36,58 +32,6 @@
 		9DB6C7B42583C65400F00223 /* ClassTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB6C7B32583C65400F00223 /* ClassTime.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		913ED49B256C18D10060059B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 913ED491256C18D10060059B /* OAuthSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F435027A1A6791B200038A29;
-			remoteInfo = OAuthSwift;
-		};
-		913ED49D256C18D10060059B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 913ED491256C18D10060059B /* OAuthSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C48B28021AFA598D00C7DEF6;
-			remoteInfo = OAuthSwiftMacOS;
-		};
-		913ED49F256C18D10060059B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 913ED491256C18D10060059B /* OAuthSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C4B6EE1E1BF74CE300443596;
-			remoteInfo = OAuthSwiftTVOS;
-		};
-		913ED4A1256C18D10060059B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 913ED491256C18D10060059B /* OAuthSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C40890C01C11B37000E3146A;
-			remoteInfo = OAuthSwiftWatchOS;
-		};
-		913ED4A3256C18D10060059B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 913ED491256C18D10060059B /* OAuthSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F451E3C5195B8CD80051434C;
-			remoteInfo = OAuthSwiftDemo;
-		};
-		913ED4A5256C18D10060059B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 913ED491256C18D10060059B /* OAuthSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C49FD5241AFB5DF500791E1A;
-			remoteInfo = OAuthSwiftMacOSDemo;
-		};
-		913ED4A7256C18D10060059B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 913ED491256C18D10060059B /* OAuthSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C4D50DF71BFB693F0053B624;
-			remoteInfo = OAuthSwiftTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		91D5A2CE2577F32C009BC160 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -95,7 +39,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				91133B7E257A880D007BB6F5 /* OAuthSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,11 +46,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9117279B257A2F75001C107F /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
-		913ED491256C18D10060059B /* OAuthSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuthSwift.xcodeproj; path = OAuthSwift/OAuthSwift.xcodeproj; sourceTree = "<group>"; };
 		918E856225642B54001F879C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91BF9934257FD761000B1270 /* GradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesView.swift; sourceTree = "<group>"; };
-		91D7E7E125657D3F000E3AB3 /* APIStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIStructs.swift; sourceTree = "<group>"; };
 		91DB167525641DCA0060D3C8 /* progressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = progressView.swift; sourceTree = "<group>"; };
 		91DB167E25641E110060D3C8 /* time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = time.swift; sourceTree = "<group>"; };
 		91DB168F256426280060D3C8 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -138,27 +78,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91133B7F257A8817007BB6F5 /* OAuthSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		913ED492256C18D10060059B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				913ED49C256C18D10060059B /* OAuthSwift.framework */,
-				913ED49E256C18D10060059B /* OAuthSwift.framework */,
-				913ED4A0256C18D10060059B /* OAuthSwift.framework */,
-				913ED4A2256C18D10060059B /* OAuthSwift.framework */,
-				913ED4A4256C18D10060059B /* OAuthSwiftDemo.app */,
-				913ED4A6256C18D10060059B /* OAuthSwiftMacOSDemo.app */,
-				913ED4A8256C18D10060059B /* OAuthSwiftTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		913ED4B0256C19090060059B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				9D25E8AC2562E00A009AE332 /* ephsapp2020 */,
-				913ED491256C18D10060059B /* OAuthSwift.xcodeproj */,
 				9D25E8AB2562E00A009AE332 /* Products */,
 				913ED4B0256C19090060059B /* Frameworks */,
 			);
@@ -210,8 +134,6 @@
 				9DB6C7B32583C65400F00223 /* ClassTime.swift */,
 				91DB167E25641E110060D3C8 /* time.swift */,
 				9D8DDBB22566D8E5000916F5 /* Date.swift */,
-				91D7E7E125657D3F000E3AB3 /* APIStructs.swift */,
-				9117279B257A2F75001C107F /* APIRequests.swift */,
 				9D25E8B32562E00F009AE332 /* Preview Content */,
 			);
 			path = ephsapp2020;
@@ -271,70 +193,12 @@
 			mainGroup = 9D25E8A12562E00A009AE332;
 			productRefGroup = 9D25E8AB2562E00A009AE332 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 913ED492256C18D10060059B /* Products */;
-					ProjectRef = 913ED491256C18D10060059B /* OAuthSwift.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				9D25E8A92562E00A009AE332 /* ephsapp2020 */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		913ED49C256C18D10060059B /* OAuthSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OAuthSwift.framework;
-			remoteRef = 913ED49B256C18D10060059B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		913ED49E256C18D10060059B /* OAuthSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OAuthSwift.framework;
-			remoteRef = 913ED49D256C18D10060059B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		913ED4A0256C18D10060059B /* OAuthSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OAuthSwift.framework;
-			remoteRef = 913ED49F256C18D10060059B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		913ED4A2256C18D10060059B /* OAuthSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OAuthSwift.framework;
-			remoteRef = 913ED4A1256C18D10060059B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		913ED4A4256C18D10060059B /* OAuthSwiftDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = OAuthSwiftDemo.app;
-			remoteRef = 913ED4A3256C18D10060059B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		913ED4A6256C18D10060059B /* OAuthSwiftMacOSDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = OAuthSwiftMacOSDemo.app;
-			remoteRef = 913ED4A5256C18D10060059B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		913ED4A8256C18D10060059B /* OAuthSwiftTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OAuthSwiftTests.xctest;
-			remoteRef = 913ED4A7256C18D10060059B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9D25E8A82562E00A009AE332 /* Resources */ = {
@@ -362,14 +226,12 @@
 				9D25E8F42562E261009AE332 /* AssignmentView.swift in Sources */,
 				91DB167625641DCA0060D3C8 /* progressView.swift in Sources */,
 				9D25E8F32562E261009AE332 /* ViewRouter.swift in Sources */,
-				9117279C257A2F75001C107F /* APIRequests.swift in Sources */,
 				9D8DDBB32566D8E5000916F5 /* Date.swift in Sources */,
 				9D25E8E32562E261009AE332 /* MotherView.swift in Sources */,
 				9D25E8BF2562E23B009AE332 /* AnnouncementsView.swift in Sources */,
 				9D25E8ED2562E261009AE332 /* TutorialView.swift in Sources */,
 				9D25E8E62562E261009AE332 /* NavMenuView.swift in Sources */,
 				91DB1690256426280060D3C8 /* WebView.swift in Sources */,
-				91D7E7E325657D3F000E3AB3 /* APIStructs.swift in Sources */,
 				91E5D662257999C400CCAB39 /* Elements.swift in Sources */,
 				9D25E8EA2562E261009AE332 /* LoginView.swift in Sources */,
 				9D25E8E92562E261009AE332 /* AppDelegate.swift in Sources */,
